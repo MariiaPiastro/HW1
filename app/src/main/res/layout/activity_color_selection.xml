@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ColorSelection"
+        android:orientation="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
+
+    <TextView
+            android:id="@+id/tvSelectedProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="#240B3B"
+            android:textSize="28sp"
+            tools:text="Платье"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="8dp"
+              android:text="@string/select_color"
+              android:textColor="@android:color/black"/>
+
+    <TableLayout android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+        <TableRow>
+            <TextView
+                    android:id="@+id/tvRed"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="4dp"
+                    android:padding="8dp"
+                    android:gravity="end|bottom"
+                    android:text="@string/red"
+                    android:textColor="@android:color/black"
+                    android:background="@android:color/holo_red_dark"/>
+
+            <TextView
+                    android:id="@+id/tvYellow"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="4dp"
+                    android:padding="8dp"
+                    android:gravity="end|bottom"
+                    android:text="@string/yellow"
+                    android:textColor="@android:color/black"
+                    android:background="@android:color/holo_orange_light"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                    android:id="@+id/tvGreen"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="4dp"
+                    android:padding="8dp"
+                    android:text="@string/green"
+                    android:textColor="@android:color/black"
+                    android:gravity="end|bottom"
+                    android:background="@android:color/holo_green_dark"/>
+
+            <TextView
+                    android:id="@+id/tvBlue"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="4dp"
+                    android:padding="8dp"
+                    android:text="@string/blue"
+                    android:textColor="@android:color/black"
+                    android:gravity="bottom|end"
+                    android:background="@android:color/holo_blue_dark"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

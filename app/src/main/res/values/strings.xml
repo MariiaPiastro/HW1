@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Home Work 1</string>
+    <string name="selected_product">Выбраный товар: %s</string>
+    <string name="title">Выберите желаемый товар</string>
+    <string name="dress">Платье</string>
+    <string name="shirt">Футболка</string>
+    <string name="shorts">Шорты</string>
+    <string name="button_send_order">Отправить заказ</string>
+    <string name="select_product">Выберите желаемый товар</string>
+    <string name="select_color">Выберите желаемый цвет:</string>
+    <string name="red">Красный</string>
+    <string name="yellow">Желтый</string>
+    <string name="green">Зеленый</string>
+    <string name="blue">Синий</string>
+</resources>
